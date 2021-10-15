@@ -57,16 +57,17 @@ a:hover{
     background-size: cover;
     background-position: center;
     margin-top: 30px;
-    height: 350px;
+    height: 360px;
     border-radius: 10px;
 }
 .container-jumbo {
     height: 100%;
-    background-color: rgba(202, 189, 181, 0.6);
+    background-color: rgba(202, 189, 181, 0.5);
 }
 .text-content-jumbo {
     width: 55%;
     margin-left: 30px;
+    padding-top: 220px;
 }
 .jumbotron-title, .paragraph-jumbo {
     color: white;
@@ -80,15 +81,22 @@ a:hover{
 
 .blue-section {
     height: 400px;
-    background-color: #0086FE;
     margin-top: 10px;
 }
 
-.head-blue-section{
+.head-section{
      height: 50px;
-     background-color: #ABCFE6;
+     margin-top: 30px;
+     margin-bottom: 20px;
+}
+.title-section {
+   font-size: 30px;
 }
 
+.title-paragraph {
+    color: #A6A7A7;
+    font-size: 15px;
+}
 .col-left, 
 .col-middle, 
 .col-right {
