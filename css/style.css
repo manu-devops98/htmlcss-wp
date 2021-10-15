@@ -6,6 +6,7 @@
 
 html {
     font-size: 100%;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .clearfix::after {
@@ -21,17 +22,60 @@ html {
   /* header */
 
 .head-layout {
-    height: 60px;
-    background-color: #E57BE6;
-}
- /* 1° section */
-
-.yellow-section {
-     height: 300px;
-     background-color: #E1D67A;
-     margin-top: 10px;
+    width: 150px;
+    border-right: 1px solid lightgrey;
 }
 
+.head-layout img {
+    width: 130px;
+    margin: 5px;
+}
+
+/* navbar */
+
+a {
+    text-decoration: none;
+    color: #A6A7A7;
+    margin-left: 10px;
+}
+#features{margin-left: 0px;}
+
+a:hover{
+    color: black;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+ /* jumbotron */
+
+.jumbotron {
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 30px;
+    height: 350px;
+    border-radius: 10px;
+}
+.container-jumbo {
+    height: 100%;
+    background-color: rgba(202, 189, 181, 0.6);
+}
+.text-content-jumbo {
+    width: 55%;
+    margin-left: 30px;
+}
+.jumbotron-title, .paragraph-jumbo {
+    color: white;
+    text-align: left;
+}
+
+.paragraph-jumbo {
+    font-size: 15px;
+}
  /* 2° section */
 
 .blue-section {
