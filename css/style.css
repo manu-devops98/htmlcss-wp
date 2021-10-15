@@ -119,14 +119,15 @@ main {
 }
 
 #img-1 {
-    background-image: url("../img/img-1.jpg");
+    background-image: url(../img/img-1.jpg);
 }
 
 #img-2 {
-    background-image: url("../img/img-3.jpg");
+   background-image: url(../img/img-3.jpg);
 }
+
 #banner-1 {
-    background-image: url("../img/banner-2.jpg");
+    background-image: url(../img/banner-2.jpg);
 }
 
 .title {
