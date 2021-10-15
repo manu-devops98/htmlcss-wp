@@ -16,10 +16,34 @@ html {
 }
    
 .container {
-    margin: 10px auto;
+    margin: 20px auto;
     width: 60%;
 }
-  /* header */
+
+.background {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(29, 29, 29, 0.3);
+}
+
+.b-radius-10 {
+    border-radius: 10px;
+}
+
+.float {
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: #A6A7A7;
+    margin-left: 10px;
+}
+
+a:hover{
+    color: black;
+}
+/* header */
 
 .head-layout {
     width: 150px;
@@ -33,16 +57,8 @@ html {
 
 /* navbar */
 
-a {
-    text-decoration: none;
-    color: #A6A7A7;
-    margin-left: 10px;
-}
 #features{margin-left: 0px;}
 
-a:hover{
-    color: black;
-}
 
 .nav-bar li {
     display: inline-block;
@@ -56,55 +72,39 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    margin-top: 30px;
+    margin: 30px 0;
     height: 360px;
-    border-radius: 10px;
 }
-.container-jumbo {
-    height: 100%;
-    background-color: rgba(202, 189, 181, 0.5);
-}
-.text-content-jumbo {
+
+.content-jumbo {
     width: 55%;
     margin-left: 30px;
     padding-top: 220px;
-}
-.jumbotron-title, .paragraph-jumbo {
     color: white;
     text-align: left;
 }
-
-.paragraph-jumbo {
+.content-jumbo p{
     font-size: 15px;
 }
- /* 2° section */
-
-.blue-section {
-    height: 400px;
-    margin-top: 10px;
+ /* main */
+main {
+    margin: 0 0 10px;
 }
-
-.head-section{
+.main-header{
      height: 50px;
      margin-top: 30px;
-     margin-bottom: 20px;
-}
-.title-section {
-   font-size: 30px;
+     margin: 10px 0;
 }
 
-.title-paragraph {
+.main-header p {
     color: #A6A7A7;
     font-size: 15px;
 }
+
 .col-left, 
-.col-middle, 
 .col-right {
-    float: left;
     margin: 15px 0 10px 0;
     width: calc(25% - 10px);
-    height: 80%;
-    background-color: #ABCFE6;
 }
 
 .col-middle {
@@ -112,9 +112,47 @@ a:hover{
     margin: 15px 10px 10px 10px;
 }
 
+.img {
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+}
+
+#img-1 {
+    background-image: url("../img/img-1.jpg");
+}
+
+#img-2 {
+    background-image: url("../img/img-3.jpg");
+}
+#banner-1 {
+    background-image: url("../img/banner-2.jpg");
+}
+
+.title {
+    margin: 15px 0;
+}
+
+.paragraph {
+    color: #A6A7A7;;
+}
 /* footer  */
-.layout-footer {
-   height: 30px;
-   margin-top: 5px;
-   background-color: #8702FB;
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
+
+#heart {
+    font-size: 20px;
+    color: red;
+}
+
+#name {
+    font-size: 30px;
+    color: crimson;
+}
+
+#name:hover {
+    color: black;
 }
